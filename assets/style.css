@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+header {
+    padding: 20px 10px;
+    background-image: url(/assets/images/mesh-gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    /* ajuste de imagen en header */
+}
+
+
+.container {
+    padding: 10px;
+    height: 150px;
+    border-color: none;
+    border-radius: 32px;
+    background-color: black;
+    opacity: .3;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.item1{
+    display: flex;
+    flex: 1 0 300px;
+    align-items: center;
+    border: 10px solid darkblue;
+}
+
+.item2 {
+    
+    
+    border: 10px solid darkblue;
+    display: flex;
+    flex: 1 0 300px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.item3{
+    
+    display: flex;
+    flex: 1 0 300px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    border: 10px solid darkblue;
+}
+
+
+
+button {
+    background-color: yellow;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0s linear 300ms, opacity 300ms;
+
+}
+
+input:not(:placeholder-shown)+button {
+    opacity: 1;
+    visibility: visible;
+    transition: visibility 0s linear 0s, opacity 300ms;
+
+}
