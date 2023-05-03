@@ -31,11 +31,11 @@ header {
     flex-wrap: wrap;
     gap: 8px;
     justify-content: space-between;
-    align-items: center;
+  
 }
 
 
-.item1{
+.item1 {
     display: flex;
     flex: 1 0 300px;
     align-items: center;
@@ -43,8 +43,6 @@ header {
 }
 
 .item2 {
-    
-    
     border: 10px solid darkblue;
     display: flex;
     flex: 1 0 300px;
@@ -53,13 +51,11 @@ header {
     margin: auto;
 }
 
-.item3{
-    
+.item3 {
+
     display: flex;
     flex: 1 0 300px;
-    text-align: center;
     align-items: center;
-    margin: auto;
     border: 10px solid darkblue;
 }
 
